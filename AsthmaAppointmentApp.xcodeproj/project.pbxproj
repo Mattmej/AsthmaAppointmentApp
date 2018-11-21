@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C0F52821A5FCDE005260B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F52721A5FCDE005260B9 /* AppDelegate.swift */; };
+		C9C0F52A21A5FCDE005260B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F52921A5FCDE005260B9 /* ViewController.swift */; };
+		C9C0F52D21A5FCDE005260B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0F52B21A5FCDE005260B9 /* Main.storyboard */; };
+		C9C0F52F21A5FCDF005260B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C0F52E21A5FCDF005260B9 /* Assets.xcassets */; };
+		C9C0F53221A5FCDF005260B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0F53021A5FCDF005260B9 /* LaunchScreen.storyboard */; };
+		C9C0F53D21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F53C21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift */; };
+		C9C0F54821A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F54721A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C0F53921A5FCDF005260B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0F51C21A5FCDE005260B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0F52321A5FCDE005260B9;
+			remoteInfo = AsthmaAppointmentApp;
+		};
+		C9C0F54421A5FCDF005260B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0F51C21A5FCDE005260B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0F52321A5FCDE005260B9;
+			remoteInfo = AsthmaAppointmentApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C0F52421A5FCDE005260B9 /* AsthmaAppointmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsthmaAppointmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0F52721A5FCDE005260B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9C0F52921A5FCDE005260B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9C0F52C21A5FCDE005260B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C0F52E21A5FCDF005260B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C0F53121A5FCDF005260B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9C0F53321A5FCDF005260B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0F53821A5FCDF005260B9 /* AsthmaAppointmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsthmaAppointmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0F53C21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsthmaAppointmentAppTests.swift; sourceTree = "<group>"; };
+		C9C0F53E21A5FCDF005260B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0F54321A5FCDF005260B9 /* AsthmaAppointmentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsthmaAppointmentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0F54721A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsthmaAppointmentAppUITests.swift; sourceTree = "<group>"; };
+		C9C0F54921A5FCDF005260B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C0F52121A5FCDE005260B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F53521A5FCDF005260B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F54021A5FCDF005260B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C0F51B21A5FCDE005260B9 = {
+			isa = PBXGroup;
+			children = (
+				C9C0F52621A5FCDE005260B9 /* AsthmaAppointmentApp */,
+				C9C0F53B21A5FCDF005260B9 /* AsthmaAppointmentAppTests */,
+				C9C0F54621A5FCDF005260B9 /* AsthmaAppointmentAppUITests */,
+				C9C0F52521A5FCDE005260B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C0F52521A5FCDE005260B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0F52421A5FCDE005260B9 /* AsthmaAppointmentApp.app */,
+				C9C0F53821A5FCDF005260B9 /* AsthmaAppointmentAppTests.xctest */,
+				C9C0F54321A5FCDF005260B9 /* AsthmaAppointmentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C0F52621A5FCDE005260B9 /* AsthmaAppointmentApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0F52721A5FCDE005260B9 /* AppDelegate.swift */,
+				C9C0F52921A5FCDE005260B9 /* ViewController.swift */,
+				C9C0F52B21A5FCDE005260B9 /* Main.storyboard */,
+				C9C0F52E21A5FCDF005260B9 /* Assets.xcassets */,
+				C9C0F53021A5FCDF005260B9 /* LaunchScreen.storyboard */,
+				C9C0F53321A5FCDF005260B9 /* Info.plist */,
+			);
+			path = AsthmaAppointmentApp;
+			sourceTree = "<group>";
+		};
+		C9C0F53B21A5FCDF005260B9 /* AsthmaAppointmentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0F53C21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift */,
+				C9C0F53E21A5FCDF005260B9 /* Info.plist */,
+			);
+			path = AsthmaAppointmentAppTests;
+			sourceTree = "<group>";
+		};
+		C9C0F54621A5FCDF005260B9 /* AsthmaAppointmentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0F54721A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift */,
+				C9C0F54921A5FCDF005260B9 /* Info.plist */,
+			);
+			path = AsthmaAppointmentAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C0F52321A5FCDE005260B9 /* AsthmaAppointmentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0F54C21A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentApp" */;
+			buildPhases = (
+				C9C0F52021A5FCDE005260B9 /* Sources */,
+				C9C0F52121A5FCDE005260B9 /* Frameworks */,
+				C9C0F52221A5FCDE005260B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsthmaAppointmentApp;
+			productName = AsthmaAppointmentApp;
+			productReference = C9C0F52421A5FCDE005260B9 /* AsthmaAppointmentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C0F53721A5FCDF005260B9 /* AsthmaAppointmentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0F54F21A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentAppTests" */;
+			buildPhases = (
+				C9C0F53421A5FCDF005260B9 /* Sources */,
+				C9C0F53521A5FCDF005260B9 /* Frameworks */,
+				C9C0F53621A5FCDF005260B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0F53A21A5FCDF005260B9 /* PBXTargetDependency */,
+			);
+			name = AsthmaAppointmentAppTests;
+			productName = AsthmaAppointmentAppTests;
+			productReference = C9C0F53821A5FCDF005260B9 /* AsthmaAppointmentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9C0F54221A5FCDF005260B9 /* AsthmaAppointmentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0F55221A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentAppUITests" */;
+			buildPhases = (
+				C9C0F53F21A5FCDF005260B9 /* Sources */,
+				C9C0F54021A5FCDF005260B9 /* Frameworks */,
+				C9C0F54121A5FCDF005260B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0F54521A5FCDF005260B9 /* PBXTargetDependency */,
+			);
+			name = AsthmaAppointmentAppUITests;
+			productName = AsthmaAppointmentAppUITests;
+			productReference = C9C0F54321A5FCDF005260B9 /* AsthmaAppointmentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C0F51C21A5FCDE005260B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Matt_Mejia;
+				TargetAttributes = {
+					C9C0F52321A5FCDE005260B9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C9C0F53721A5FCDF005260B9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C9C0F52321A5FCDE005260B9;
+					};
+					C9C0F54221A5FCDF005260B9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C9C0F52321A5FCDE005260B9;
+					};
+				};
+			};
+			buildConfigurationList = C9C0F51F21A5FCDE005260B9 /* Build configuration list for PBXProject "AsthmaAppointmentApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C0F51B21A5FCDE005260B9;
+			productRefGroup = C9C0F52521A5FCDE005260B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C0F52321A5FCDE005260B9 /* AsthmaAppointmentApp */,
+				C9C0F53721A5FCDF005260B9 /* AsthmaAppointmentAppTests */,
+				C9C0F54221A5FCDF005260B9 /* AsthmaAppointmentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C0F52221A5FCDE005260B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0F53221A5FCDF005260B9 /* LaunchScreen.storyboard in Resources */,
+				C9C0F52F21A5FCDF005260B9 /* Assets.xcassets in Resources */,
+				C9C0F52D21A5FCDE005260B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F53621A5FCDF005260B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F54121A5FCDF005260B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C0F52021A5FCDE005260B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0F52A21A5FCDE005260B9 /* ViewController.swift in Sources */,
+				C9C0F52821A5FCDE005260B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F53421A5FCDF005260B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0F53D21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0F53F21A5FCDF005260B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0F54821A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C0F53A21A5FCDF005260B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0F52321A5FCDE005260B9 /* AsthmaAppointmentApp */;
+			targetProxy = C9C0F53921A5FCDF005260B9 /* PBXContainerItemProxy */;
+		};
+		C9C0F54521A5FCDF005260B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0F52321A5FCDE005260B9 /* AsthmaAppointmentApp */;
+			targetProxy = C9C0F54421A5FCDF005260B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C0F52B21A5FCDE005260B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0F52C21A5FCDE005260B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C0F53021A5FCDF005260B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0F53121A5FCDF005260B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C0F54A21A5FCDF005260B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9C0F54B21A5FCDF005260B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C0F54D21A5FCDF005260B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C0F54E21A5FCDF005260B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9C0F55021A5FCDF005260B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsthmaAppointmentApp.app/AsthmaAppointmentApp";
+			};
+			name = Debug;
+		};
+		C9C0F55121A5FCDF005260B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsthmaAppointmentApp.app/AsthmaAppointmentApp";
+			};
+			name = Release;
+		};
+		C9C0F55321A5FCDF005260B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsthmaAppointmentApp;
+			};
+			name = Debug;
+		};
+		C9C0F55421A5FCDF005260B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsthmaAppointmentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Matt-Mejia.AsthmaAppointmentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsthmaAppointmentApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C0F51F21A5FCDE005260B9 /* Build configuration list for PBXProject "AsthmaAppointmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0F54A21A5FCDF005260B9 /* Debug */,
+				C9C0F54B21A5FCDF005260B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0F54C21A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0F54D21A5FCDF005260B9 /* Debug */,
+				C9C0F54E21A5FCDF005260B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0F54F21A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0F55021A5FCDF005260B9 /* Debug */,
+				C9C0F55121A5FCDF005260B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0F55221A5FCDF005260B9 /* Build configuration list for PBXNativeTarget "AsthmaAppointmentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0F55321A5FCDF005260B9 /* Debug */,
+				C9C0F55421A5FCDF005260B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C0F51C21A5FCDE005260B9 /* Project object */;
+}
