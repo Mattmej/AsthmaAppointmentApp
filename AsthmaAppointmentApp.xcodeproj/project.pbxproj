@@ -14,6 +14,9 @@
 		C9C0F53221A5FCDF005260B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0F53021A5FCDF005260B9 /* LaunchScreen.storyboard */; };
 		C9C0F53D21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F53C21A5FCDF005260B9 /* AsthmaAppointmentAppTests.swift */; };
 		C9C0F54821A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F54721A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift */; };
+		C9F1087F21B03876008F7EFA /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1087E21B03876008F7EFA /* Appointment.swift */; };
+		C9F1088121B038F7008F7EFA /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1088021B038F7008F7EFA /* Header.swift */; };
+		C9F1088321B03942008F7EFA /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1088221B03942008F7EFA /* AppointmentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C9C0F54321A5FCDF005260B9 /* AsthmaAppointmentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsthmaAppointmentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C0F54721A5FCDF005260B9 /* AsthmaAppointmentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsthmaAppointmentAppUITests.swift; sourceTree = "<group>"; };
 		C9C0F54921A5FCDF005260B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F1087E21B03876008F7EFA /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		C9F1088021B038F7008F7EFA /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C9F1088221B03942008F7EFA /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		C9C0F52621A5FCDE005260B9 /* AsthmaAppointmentApp */ = {
 			isa = PBXGroup;
 			children = (
+				C9F1087D21B0385C008F7EFA /* Models */,
+				C9F1087C21B0384E008F7EFA /* Cells */,
 				C9C0F52721A5FCDE005260B9 /* AppDelegate.swift */,
 				C9C0F52921A5FCDE005260B9 /* ViewController.swift */,
 				C9C0F52B21A5FCDE005260B9 /* Main.storyboard */,
@@ -123,6 +131,23 @@
 				C9C0F54921A5FCDF005260B9 /* Info.plist */,
 			);
 			path = AsthmaAppointmentAppUITests;
+			sourceTree = "<group>";
+		};
+		C9F1087C21B0384E008F7EFA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1088221B03942008F7EFA /* AppointmentTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C9F1087D21B0385C008F7EFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1087E21B03876008F7EFA /* Appointment.swift */,
+				C9F1088021B038F7008F7EFA /* Header.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F1088121B038F7008F7EFA /* Header.swift in Sources */,
+				C9F1087F21B03876008F7EFA /* Appointment.swift in Sources */,
+				C9F1088321B03942008F7EFA /* AppointmentTableViewCell.swift in Sources */,
 				C9C0F52A21A5FCDE005260B9 /* ViewController.swift in Sources */,
 				C9C0F52821A5FCDE005260B9 /* AppDelegate.swift in Sources */,
 			);
